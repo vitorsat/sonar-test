@@ -3,7 +3,7 @@ import React from "react";
 const Button = ({ onClick }) => {
   return (
     <button onClick={onClick} data-testid="buttonclick">
-      Click Me
+      Click Me - Testando
     </button>
   );
 };
