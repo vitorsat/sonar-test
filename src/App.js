@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 const App = () => {
   return (
     <div className="mainDiv">
-      <h1>Testando</h1>
+      <h1>Testando - Sonar</h1>
       <Home />
     </div>
   );
