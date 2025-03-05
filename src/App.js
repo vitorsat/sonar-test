@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 const App = () => {
   return (
     <div className="mainDiv">
+      <h1>Testando</h1>
       <Home />
     </div>
   );
