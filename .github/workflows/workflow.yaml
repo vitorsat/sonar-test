@@ -13,8 +13,8 @@ jobs:
       - name: Using Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 22.14.0
-      -name: run install, build and test
+          node-version: 22.
+      - name: run install, build and test
         run: |
           npm install
           npm run build
