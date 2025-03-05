@@ -6,7 +6,7 @@ const Counter = () => {
 
   return (
     <div>
-      <h1>Count: {count}</h1>
+      <h1 data-testid="counttext">Count: {count}</h1>
       <Button onClick={() => setCount(count + 1)} />
     </div>
   );

@@ -14,7 +14,10 @@
     "react-dom": "^18.0.0",
     "react-scripts": "latest"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
