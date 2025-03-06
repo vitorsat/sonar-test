@@ -6,18 +6,17 @@ const Counter = () => {
 
   const increment = () => {
     setCount(count + 1);
-    setCount(count + 1); 
   };
 
-  const duplicateFunction = () => {
-    console.log("Duplicated function");
-  };
+  // const duplicateFunction = () => {
+  //   console.log("Duplicated function");
+  // };
   
-  const anotherDuplicateFunction = () => {
-    console.log("Duplicated function");
-  };  
+  // const anotherDuplicateFunction = () => {
+  //   console.log("Duplicated function");
+  // };  
 
-  throw new Error("Simulated Critical Bug")
+  // throw new Error("Simulated Critical Bug")
 
   return (
     <div>
