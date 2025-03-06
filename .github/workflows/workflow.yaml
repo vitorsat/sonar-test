@@ -20,6 +20,7 @@ jobs:
           npm run build
           npm run test
   sonarqube:
+    name: SonarQube
     runs-on: ubuntu-latest
 
     steps:
