@@ -6,7 +6,7 @@ const Counter = () => {
 
   const increment = () => {
     setCount(count + 1);
-    setCount(count + 1); // ❌ Erro: segunda chamada sobrescreve a primeira (bug lógico)
+    setCount(count + 1); 
   };
 
   return (
