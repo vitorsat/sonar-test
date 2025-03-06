@@ -8,16 +8,6 @@ const Counter = () => {
     setCount(count + 1);
   };
 
-  // const duplicateFunction = () => {
-  //   console.log("Duplicated function");
-  // };
-  
-  // const anotherDuplicateFunction = () => {
-  //   console.log("Duplicated function");
-  // };  
-
-  // throw new Error("Simulated Critical Bug")
-
   return (
     <div>
       <h1 data-testid="counttext">Count: {count}</h1>
