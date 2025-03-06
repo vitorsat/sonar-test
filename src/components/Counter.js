@@ -4,10 +4,15 @@ import Button from "./Button";
 const Counter = () => {
   const [count, setCount] = useState(0);
 
+  const increment = () => {
+    setCount(count + 1);
+    setCount(count + 1); // ❌ Erro: segunda chamada sobrescreve a primeira (bug lógico)
+  };
+
   return (
     <div>
       <h1 data-testid="counttext">Count: {count}</h1>
-      <Button onClick={() => setCount(count + 1)} />
+      <Button onClick={increment} />
     </div>
   );
 };
