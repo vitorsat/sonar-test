@@ -17,6 +17,8 @@ const Counter = () => {
     console.log("Duplicated function");
   };  
 
+  throw new Error("Simulated Critical Bug")
+
   return (
     <div>
       <h1 data-testid="counttext">Count: {count}</h1>
