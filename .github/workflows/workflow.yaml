@@ -1,6 +1,8 @@
 name: Continuos Integration
 
 on:
+  push:
+    branches: ["master"]
   pull_request:
     branches: ["master"]
 
@@ -19,6 +21,7 @@ jobs:
           npm install
           npm run build
           npm run test
+          npm run test -- --coverage .
   sonarqube:
     name: SonarQube
     runs-on: ubuntu-latest
